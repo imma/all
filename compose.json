@@ -1,0 +1,21 @@
+{
+  "version": "2.1",
+  "services": {
+    "admin": {},
+    "dnsmasq": {},
+    "consul": {},
+    "consul-ui": {},
+    "openvpn": {},
+    "squid": {},
+    "linkerd": {},
+    "etcd": {},
+    "nexus": {},
+    "irssi": {},
+    "nginx": {},
+    "gogs": {},
+    "app": {},
+    "buildkite": {},
+    "postgresql": {},
+    "vault": {}
+  }
+}
