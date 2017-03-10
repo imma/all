@@ -1,0 +1,20 @@
+{
+  "require": [
+		"admin",
+		"app",
+		"buildkite",
+		"consul",
+		"consul-ui",
+		"dnsmasq",
+		"etcd",
+		"gogs",
+		"irssi",
+		"linkerd",
+		"nexus",
+		"nginx",
+		"openvpn",
+		"postgresql",
+		"squid",
+		"vault"
+	]
+}
