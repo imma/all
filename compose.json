@@ -337,6 +337,28 @@
       "dns_search": "node.consul",
       "image": "${BLOCK_REGISTRY}/block:nginx",
       "hostname": "nginx"
+    },
+    "buildkite": {
+      "volumes": [
+        "/data:/data",
+        "/config:/config"
+      ],
+      "ports": [
+        "${BLOCK_SSH_PORT}"
+      ],
+      "cap_add": [
+        "NET_ADMIN"
+      ],
+      "networks": {
+        "default": {
+          "ipv4_address": "${NET_PREFIX}.17"
+        }
+      },
+      "dns": "172.28.128.1",
+      "dns_search": "node.consul",
+      "image": "${BLOCK_REGISTRY}/block:buildkite",
+      "hostname": "buildkite"
     }
   }
 }
+

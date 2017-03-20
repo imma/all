@@ -15,6 +15,7 @@
 		"openvpn",
 		"postgresql",
 		"squid",
-		"vault"
+		"vault",
+    "buildkite"
 	]
 }
