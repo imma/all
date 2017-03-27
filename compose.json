@@ -256,26 +256,6 @@
       "image": "${BLOCK_REGISTRY}/block:postgresql",
       "hostname": "postgresql"
     },
-    "gogs": {
-      "volumes": [
-        "/data:/data",
-        "/config:/config"
-      ],
-      "ports": [
-        "${BLOCK_SSH_PORT}"
-      ],
-      "cap_add": [
-        "NET_ADMIN"
-      ],
-      "networks": {
-        "default": {
-          "ipv4_address": "${NET_PREFIX}.9"
-        }
-      },
-      "dns_search": "node.consul",
-      "image": "${BLOCK_REGISTRY}/block:gogs",
-      "hostname": "gogs"
-    },
     "nexus": {
       "volumes": [
         "/data:/data",
