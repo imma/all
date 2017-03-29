@@ -15,6 +15,7 @@
 		"postgresql",
 		"squid",
 		"vault",
-    "buildkite"
+    "buildkite",
+    "k8s"
 	]
 }
