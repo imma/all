@@ -9,6 +9,8 @@
 		"etcd",
 		"irssi",
 		"linkerd",
+    "linkerd-tcp",
+    "namerd",
 		"nexus",
 		"nginx",
 		"openvpn",
