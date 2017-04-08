@@ -9,7 +9,6 @@
     "squid": { },
     "namerd": { },
     "linkerd": { },
-    "linkerd-tcp": { },
     "etcd": { },
     "app": { },
     "buildkite": { },
