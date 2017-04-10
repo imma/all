@@ -9,6 +9,7 @@
     "squid": { },
     "namerd": { },
     "linkerd": { },
+    "linkerd-tcp": { },
     "etcd": { },
     "app": { },
     "buildkite": { },
@@ -17,7 +18,8 @@
     "nexus": { },
     "nginx": { },
     "buildkite": { },
-    "k8s": { }
+    "k8s": { },
+    "irssi": { }
   }
 }
 
