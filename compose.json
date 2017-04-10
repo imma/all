@@ -1,7 +1,6 @@
 {
   "version": "2.1",
   "services": {
-    "admin": { },
     "dnsmasq": { },
     "consul": { },
     "consul-ui": { },
@@ -11,7 +10,6 @@
     "linkerd": { },
     "linkerd-tcp": { },
     "etcd": { },
-    "app": { },
     "buildkite": { },
     "vault": { },
     "postgresql": { },
