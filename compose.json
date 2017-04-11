@@ -1,6 +1,7 @@
 {
   "version": "2.1",
   "services": {
+    "k8s": { },
     "dnsmasq": { },
     "consul": { },
     "consul-ui": { },
@@ -8,7 +9,6 @@
     "squid": { },
     "namerd": { },
     "linkerd": { },
-    "linkerd-tcp": { },
     "etcd": { },
     "buildkite": { },
     "vault": { },
@@ -16,8 +16,8 @@
     "nexus": { },
     "nginx": { },
     "buildkite": { },
-    "k8s": { },
-    "irssi": { }
+    "irssi": { },
+    "linkerd-tcp": { },
   }
 }
 
