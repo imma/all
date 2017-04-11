@@ -17,7 +17,7 @@
     "nginx": { },
     "buildkite": { },
     "irssi": { },
-    "linkerd-tcp": { },
+    "linkerd-tcp": { }
   }
 }
 
