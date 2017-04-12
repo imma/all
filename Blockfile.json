@@ -1,7 +1,5 @@
 {
   "require": [
-		"admin",
-		"app",
 		"buildkite",
 		"consul",
 		"consul-ui",
